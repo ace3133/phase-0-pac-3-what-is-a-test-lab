@@ -2,36 +2,27 @@
   "stats": {
     "suites": 4,
     "tests": 3,
-    "passes": 1,
+    "passes": 3,
     "pending": 0,
-    "failures": 2,
-    "start": "2024-01-12T18:43:02.202Z",
-    "end": "2024-01-12T18:43:02.471Z",
-    "duration": 269
+    "failures": 0,
+    "start": "2024-01-12T18:58:21.502Z",
+    "end": "2024-01-12T18:58:21.759Z",
+    "duration": 257
   },
   "tests": [
     {
       "title": "returns \"Susan\"",
       "fullTitle": "what-is-a-test Name returns \"Susan\"",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "Error: Expected 'Joe' to equal 'Susan'\n    at assert (node_modules/expect/lib/assert.js:29:9)\n    at Expectation.toEqual (node_modules/expect/lib/Expectation.js:81:30)\n    at Context.<anonymous> (test/indexTest.js:8:20)\n    at process.processImmediate (node:internal/timers:478:21)",
-        "message": "Expected 'Joe' to equal 'Susan'",
-        "actual": "Joe",
-        "expected": "Susan",
-        "showDiff": true
-      }
+      "err": {}
     },
     {
       "title": "is less than 40 and greater than 0",
       "fullTitle": "what-is-a-test Height is less than 40 and greater than 0",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "Error: Expected 74 to be less than 40\n    at assert (node_modules/expect/lib/assert.js:29:9)\n    at Expectation.toBeLessThan (node_modules/expect/lib/Expectation.js:156:28)\n    at Context.<anonymous> (test/indexTest.js:15:22)\n    at process.processImmediate (node:internal/timers:478:21)",
-        "message": "Expected 74 to be less than 40"
-      }
+      "err": {}
     },
     {
       "title": "gives the name and height",
@@ -42,32 +33,22 @@
     }
   ],
   "pending": [],
-  "failures": [
+  "failures": [],
+  "passes": [
     {
       "title": "returns \"Susan\"",
       "fullTitle": "what-is-a-test Name returns \"Susan\"",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "Error: Expected 'Joe' to equal 'Susan'\n    at assert (node_modules/expect/lib/assert.js:29:9)\n    at Expectation.toEqual (node_modules/expect/lib/Expectation.js:81:30)\n    at Context.<anonymous> (test/indexTest.js:8:20)\n    at process.processImmediate (node:internal/timers:478:21)",
-        "message": "Expected 'Joe' to equal 'Susan'",
-        "actual": "Joe",
-        "expected": "Susan",
-        "showDiff": true
-      }
+      "err": {}
     },
     {
       "title": "is less than 40 and greater than 0",
       "fullTitle": "what-is-a-test Height is less than 40 and greater than 0",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "Error: Expected 74 to be less than 40\n    at assert (node_modules/expect/lib/assert.js:29:9)\n    at Expectation.toBeLessThan (node_modules/expect/lib/Expectation.js:156:28)\n    at Context.<anonymous> (test/indexTest.js:15:22)\n    at process.processImmediate (node:internal/timers:478:21)",
-        "message": "Expected 74 to be less than 40"
-      }
-    }
-  ],
-  "passes": [
+      "err": {}
+    },
     {
       "title": "gives the name and height",
       "fullTitle": "what-is-a-test Message gives the name and height",
